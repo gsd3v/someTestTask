@@ -70,9 +70,8 @@ void addToStatistic(int length, std::map<int, int> &statistic)
 //! @brief Counter of word length statistic.
 //! 
 //! @param path Path to text file. 
-//! @param statistic Storage of statistic.
-//! @return int 
-int wordLenthsCount(std::string path, std::map<int, int> &statistic)
+//! @param statistic Storage of statistic. 
+void wordLenthsCount(std::string path, std::map<int, int> &statistic)
 {
   std::ifstream file;
   file.open(path);
